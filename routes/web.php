@@ -30,3 +30,6 @@ Route::get('/Baru', function () {
     return view('Baru');
 });
 
+Route::get('/tes', function () {
+    return view('tes');
+});
